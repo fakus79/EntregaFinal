@@ -1,0 +1,22 @@
+$tema: 'standard';
+
+$fondo-inicio:#F8F9FA;
+$fondo-fin:#dbdde0;
+$verde-osc:#2f3e46;
+$verde-med2:#354f52;
+$verde-med1:#52796f;
+$verde-cla:#84a98c;
+
+@if $tema != 'standard' {
+    $fondo-inicio:#dddcdc;
+    $fondo-fin:#c9c6c6;
+    $verde-osc: #15252d;
+    $verde-med2: #1b282a;
+    $verde-med1:#232a28;
+    $verde-cla:#353735;
+} 
+
+  
+$fuente-gral:"Lato", sans-serif;
+
+$foto-fondo:'../assets/skyline.jpg';

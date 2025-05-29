@@ -1,0 +1,39 @@
+* {
+    /*reset de estilos y estilos generales*/
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: $fuente-gral;
+    /*border: solid 1px blue;*/
+}
+
+body {
+    background-color: $fondo-inicio;
+    background-image: linear-gradient(to bottom, $fondo-inicio, $fondo-fin);
+}
+
+button {
+    /*redondear todos los botones*/
+    padding: 5px;
+    border-radius: 12px;
+    text-align: center;
+    
+    /*transición y cambio de color*/
+    transition: box-shadow 0.5s;
+    &:hover {
+        color: $verde-cla;
+        box-shadow: 0 0 7px $verde-osc;
+        background-color: $verde-med1;
+        }
+}
+
+input[type="date"] {
+    /*espaciar y achicar todos los input de fecha*/
+    width: 120px;
+    margin-right: 20px;
+}
+
+input[type="text"] {
+    width: 100%;
+    margin-right: 20px;
+}

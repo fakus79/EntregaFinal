@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web de reserva de alojamientos</title>
+    <!-- estilos css-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="./scss/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- contenedor general-->
+    <div class="container">
+        <main>        
+           
+            <!-- header con logo y fondo de edificios-->
+            <header class="logo">
+                    <div class="headSkyline">
+                        <img src="./assets/logo.png" class="overlayLogo" >                        
+                    </div>
+            </header>
+           
+            <!-- barra de navegación-->
+            <div class="navbar navbar__modif-JUS ">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light navbar__modif-JUS" >
+                    <!-- botón burger que despliega navbar visible solo para móviles-->
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" >
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <!-- navbar con opciones de navegación por el sitio-->
+                    <div class="collapse navbar-collapse navbar__modif-GR" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto navbar__modif-ALIGN">
+                            <li class="nav-item">
+                                <a class="nav-link" href="./index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link" href="./registro.html">Registro<span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./login.html">Login</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./contactos.html">Contactanos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./ayuda.html">Ayuda</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>                
+            </div>
+
+            <div>
+            <h1>Registro de Usuario</h1>
+            <p class="descripcionContactoRegistro">¡Únete a nuestra comunidad de anfitriones y viajeros! Regístrate para descubrir alojamientos únicos en todo el mundo o para compartir tu espacio con miles de personas que buscan nuevas experiencias. Crea tu cuenta para:</p>
+            
+            <ul class="ventajas_registro">
+                <li>Reservar alojamientos de forma fácil y segura.</li>
+                <li>Acceder a ofertas exclusivas y recomendaciones personalizadas.</li>
+                <li>Gestionar tus reservas desde cualquier dispositivo.</li>
+            </ul>            
+            </div>
+            <div class="container_registro" >
+                <div class="txt_reglabel1">Nombre Completo:</div>
+                <div class="txt_reglabel2">Email/Usuario:</div>
+                <div class="txt_reglabel3">Contraseña:</div>
+                <div class="txt_reglabel4">Repite contraseña:</div>
+                
+                <div class="inp_regname"><input type="text" name="nombre" id="nombre"></div>
+                <div class="inp_regemail"><input type="text" name="email" id="email"></div>
+                <div class="inp_regpsw"><input type="text" name="password" id="password"></div>
+                <div class="inp_regpsw2"><input type="text" name="password2" id="password2"></div>      
+                
+                <div class="txt_regnov"><input type="radio"> Sí deseo recibir novedades por email</div>          
+                <div class="bot_regsend"><button>Registrar</button></div>
+              </div>           
+        </main>
+
+        <!-- pie de página -->
+        <footer>
+            <section class="piePagina"> 
+                <!-- footer-->
+                <p> <a href="./terms.html">Términos y condiciones</a> </p>
+                <p> <a href="./lang.html">Idioma</a> </p>
+            </section>
+        </footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>
