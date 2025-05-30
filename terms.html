@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aparts Management</title>
+    <!-- estilos css-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="./scss/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- contenedor general-->
+    <div class="container">
+        <main>        
+           
+            <!-- header con logo y fondo de edificios-->
+            <header class="logo">
+                    <div class="headSkyline">
+                        <img src="./assets/logo.png" class="overlayLogo" >                        
+                    </div>
+            </header>
+           
+            <!-- barra de navegación-->
+            <div class="navbar navbar__modif-JUS ">
+                <nav class="navbar navbar-expand-lg navbar-light bg-light navbar__modif-JUS" >
+                    <!-- botón burger que despliega navbar visible solo para móviles-->
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" >
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <!-- navbar con opciones de navegación por el sitio-->
+                    <div class="collapse navbar-collapse navbar__modif-GR" id="navbarSupportedContent">
+                        <ul class="navbar-nav mr-auto navbar__modif-ALIGN">
+                            <li class="nav-item">
+                                <a class="nav-link" href="./index.html">Inicio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./registro.html">Registro</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./login.html">Login</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./contactos.html">Contactanos</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="./ayuda.html">Ayuda</a>
+                            </li>
+                        </ul>
+                    </div>
+                </nav>                
+            </div>
+
+            <div>
+            
+                <h1>Términos y Condiciones de Uso</h1>
+            
+                <p class="descripcionTerms">Al acceder y utilizar el sitio web de Aparts Management, el usuario acepta cumplir con los presentes Términos y Condiciones. Si no está de acuerdo con alguna parte de estos términos, se recomienda no utilizar nuestros servicios.</p>
+            
+                <p class="titulosTerms">Reservas y pagos</p>
+                <ul class="bulletTerms">
+                    <li>Confirmación de Reserva: Todas las reservas deben ser confirmadas mediante el pago anticipado del 50% del total de la estadía. El saldo restante se abonará al momento del check-in.</li>
+                    <li>Formas de Pago: Aceptamos pagos mediante transferencia bancaria, tarjetas de crédito/débito y otros métodos especificados en el sitio web.</li>
+                </ul>            
+
+                <p class="titulosTerms">Política de Cancelación</p>
+                <ul class="bulletTerms">
+                    <li>Cancelaciones con más de 15 días de anticipación: Se reembolsará el 100% del pago realizado.</li>
+                    <li>Cancelaciones entre 7 y 14 días de anticipación: Se reembolsará el 50% del pago realizado.</li>
+                    <li>Cancelaciones con menos de 7 días de anticipación: No se realizarán reembolsos.</li>
+                </ul>          
+
+                <p class="titulosTerms">Check-In y Check-Out</p>
+                <ul class="bulletTerms">
+                    <li>Check-In: A partir de las 15:00 horas.</li>
+                    <li>Check-Out: Hasta las 10:00 horas. Solicitudes de early check-in o late check-out estarán sujetas a disponibilidad.</li>
+                </ul>            
+
+                <p class="titulosTerms">Normas de Convivencia</p>
+                <ul class="bulletTerms">
+                    <li>Prohibido fumar dentro de los departamentos.</li>
+                    <li>No se permiten mascotas, salvo autorización previa.</li>
+                    <li>Prohibidas las fiestas o eventos sin consentimiento expreso de la administración.</li>
+                    <li>Respeto al número máximo de ocupantes establecido para cada unidad.</li>
+                </ul>  
+
+                <p class="titulosTerms">Responsabilidad</p>
+                <ul class="bulletTerms">
+                    <li>La empresa no se hace responsable por pérdida o daño de objetos personales dentro de los departamentos. </li>
+                    <li>La empresa no se hace responsable por accidentes o lesiones ocurridos durante la estadía, salvo que se demuestre negligencia por parte de la empresa.</li>
+                    <li>La empresa no se hace responsable por interrupciones en los servicios de agua, electricidad, ni internet ajenas a nuestro control.</li>
+                    <li>Legislación aplicable: Estos Términos y Condiciones se rigen por las leyes de la República Argentina. Cualquier disputa será sometida a la jurisdicción de los tribunales competentes de San Carlos de Bariloche, Río Negro.</li>
+                </ul>  
+            </div>
+             
+        </main>
+
+        <!-- pie de página -->
+        <footer>
+            <section class="piePagina"> 
+                <!-- footer-->
+                <p> <a href="./terms.html">Términos y condiciones</a> </p>
+                <p> <a href="./lang.html">Idioma</a> </p>
+            </section>
+        </footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.3/dist/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.1.3/dist/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+</body>
+</html>

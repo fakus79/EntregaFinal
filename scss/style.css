@@ -181,6 +181,23 @@ h1 {
   display: none;
 }
 
+.descripcionTerms {
+  color: #354f52;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.titulosTerms {
+  color: #2f3e46;
+  font-weight: bold;
+  font-size: larger;
+  margin-top: 30px;
+}
+
+.bulletTerms {
+  padding-left: 20px;
+}
+
 .piePagina {
   margin-top: 20px;
   margin-bottom: 20px;

@@ -13,7 +13,6 @@
     max-height: 100%;
   }
 
-
 .navbar__modif-JUS {
     /*justificación de la navbar a la derecha si está achicado*/
     justify-content: right;
@@ -140,6 +139,23 @@ h1 {
     display: none;
 }
 
+.descripcionTerms{
+    color: $verde-med2;
+    @include padding-vertical(20px);
+}
+
+.titulosTerms {
+   color: $verde-osc;
+   font-weight: bold;
+   font-size: larger;
+   margin-top: 30px;
+
+}
+
+.bulletTerms {
+     padding-left: 20px;
+}
+
 .piePagina{
     @include margin-vertical(20px);
     justify-content: right;
@@ -158,6 +174,7 @@ h1 {
     }
     
 }
+
 
 .card a:link, a:visited {
     text-decoration: none;
