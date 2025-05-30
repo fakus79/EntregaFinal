@@ -156,6 +156,24 @@ h1 {
      padding-left: 20px;
 }
 
+
+.descripcionAyuda{
+    color: $verde-med2;
+    @include padding-vertical(20px);
+}
+
+.titulosAyuda {
+   color: $verde-osc;
+   font-weight: bold;
+   font-size: larger;
+   margin-top: 30px;
+
+}
+
+.respuestaAyuda{
+    padding-left: 20px;
+}
+
 .piePagina{
     @include margin-vertical(20px);
     justify-content: right;
