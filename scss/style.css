@@ -215,6 +215,21 @@ h1 {
   padding-left: 20px;
 }
 
+.descripcionLogin {
+  color: #354f52;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.txt_loginLabel {
+  color: #354f52;
+  padding: 10px 10px 0px 0px;
+}
+
+.txt_regnov {
+  accent-color: #354f52;
+}
+
 .piePagina {
   margin-top: 20px;
   margin-bottom: 20px;
