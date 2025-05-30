@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="descripcion" content="Web para reserva de alojamientos en San Carlos de Bariloche, página de login">
+    <meta name="description" content="Web para reserva de alojamientos en San Carlos de Bariloche, página de login">
     <meta name="keywords" content="login alojamiento Bariloche, iniciar sesión Bariloche, acceso usuario Aparts Management, cuenta cliente Bariloche, ingresar para reservar, reservas personales Bariloche, gestión de reservas, login alquiler temporal, acceso hospedaje Bariloche, usuario registrado Aparts Management">
     <title>Aparts Management</title>
     <!-- estilos css-->
@@ -21,7 +21,7 @@
             <!-- header con logo y fondo de edificios-->
             <header class="logo">
                     <div class="headSkyline">
-                        <img src="./assets/logo.png" class="overlayLogo" >                        
+                        <img src="./assets/logo.png" alt="companyLogo" class="overlayLogo" >                        
                     </div>
             </header>
            
@@ -60,10 +60,10 @@
             <p class="descripcionLogin">¿No tenés cuenta de cliente aún? Podés registrarte de forma gratuita en <a href="./registro.html">este link</a>.</p>
             
             <div class="txt_loginLabel">Email:</div>
-            <div><input type="email" size="30" name="email" id="email"></div>
+            <div><input type="email" size="30" name="email" id="email" aria-label="email"></div>
             <div class="txt_loginLabel">Contraseña:</div>
-            <div><input type="password" size="30" name="password" id="password"></div>
-            <div class="txt_regnov"><input type="checkbox">Recuérdame</div>          
+            <div><input type="password" size="30" name="password" id="password" aria-label="password"></div>
+            <div class="txt_regnov"><input type="checkbox" aria-label="recordarme">Recuérdame</div>          
             <p class="descripcionLogin">Si olvidaste tu contraseña, puedes restaurarla haciendo click en <a href="./registro.html">este link</a>.</p>
             
             <div class="bot_loginsend"><button>Acceder</button></div>

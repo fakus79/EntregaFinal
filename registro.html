@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="descripcion" content="Web para reserva de alojamientos en San Carlos de Bariloche, página de registro">
+    <meta name="description" content="Web para reserva de alojamientos en San Carlos de Bariloche, página de registro">
     <meta name="keywords" content="registro alojamiento Bariloche, crear cuenta Aparts Management, registrarse para reservar, alta usuario Bariloche, cuenta cliente hospedaje, registro alquiler temporario, suscripción Bariloche, usuario nuevo reservas, crear perfil alojamiento, acceso personalizado Bariloche">
     <title>Aparts Management</title>
     <!-- estilos css-->
@@ -21,7 +21,7 @@
             <!-- header con logo y fondo de edificios-->
             <header class="logo">
                     <div class="headSkyline">
-                        <img src="./assets/logo.png" class="overlayLogo" >                        
+                        <img src="./assets/logo.png" alt="companyLogo" class="overlayLogo" >                        
                     </div>
             </header>
            
@@ -71,12 +71,12 @@
                 <div class="txt_reglabel3">Contraseña:</div>
                 <div class="txt_reglabel4">Repite contraseña:</div>
                 
-                <div class="inp_regname"><input type="text" name="nombre" id="nombre"></div>
-                <div class="inp_regemail"><input type="text" name="email" id="email"></div>
-                <div class="inp_regpsw"><input type="text" name="password" id="password"></div>
-                <div class="inp_regpsw2"><input type="text" name="password2" id="password2"></div>      
+                <div class="inp_regname"><input type="text" name="nombre" id="nombre" aria-label="nombre"></div>
+                <div class="inp_regemail"><input type="text" name="email" id="email" aria-label="email"></div>
+                <div class="inp_regpsw"><input type="text" name="password" id="password" aria-label="password"></div>
+                <div class="inp_regpsw2"><input type="text" name="password2" id="password2" aria-label="repetir password"></div>      
                 
-                <div class="txt_regnov"><input type="radio"> Sí deseo recibir novedades por email</div>          
+                <div class="txt_regnov"><input type="radio" aria-label="recibir novedades"> Sí deseo recibir novedades por email</div>          
                 <div class="bot_regsend"><button>Registrar</button></div>
               </div>           
         </main>

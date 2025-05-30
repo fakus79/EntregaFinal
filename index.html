@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="descripcion" content="Web para reserva de alojamientos en San Carlos de Bariloche, página principal">
+    <meta name="description" content="Web para reserva de alojamientos en San Carlos de Bariloche, página principal">
     <meta name="keywords" content="reserva alojamientos San Carlos de Bariloche, alquiler departamentos Bariloche, hospedaje Bariloche, Aparts Management, alojamiento céntrico Bariloche, reserva online Bariloche, turismo Bariloche, departamentos temporarios Bariloche, estadía en Bariloche, alojamiento self-check-in, ofertas Bariloche, Bariloche vacation rentals">
     <title>Aparts Management</title>
     <!-- estilos css-->
@@ -21,7 +21,7 @@
             <!-- header con logo y fondo de edificios-->
             <header class="logo">
                     <div class="headSkyline">
-                        <img src="./assets/logo.png" class="overlayLogo" >                        
+                        <img src="./assets/logo.png" alt="companyLogo" class="overlayLogo" >                        
                     </div>
             </header>
            
@@ -61,18 +61,18 @@
                     <div class="filtrosup__fechas">
                         <div>
                             Fecha in: 
-                            <input type="date" name="fechain" id="fechain">
+                            <input type="date" name="fechain" id="fechain" aria-label="fecha_ingreso">
                         </div>
                         <div>
                             Fecha out:
-                            <input type="date" name="fechaout" id="fechaout">
+                            <input type="date" name="fechaout" id="fechaout" aria-label="fecha_salida">
                         </div>
                     </div>
                     <!--pasajeros y botón buscar-->
                     <div class="filtrosup__otro">
                         <div class="filtrosup__otro-persBusc">
                             Pasajeros:
-                            <input type="number" class="pasajerosInput" name="visit" id="visit" value="2">
+                            <input type="number" class="pasajerosInput" name="visit" id="visit" value="2" aria-label="pasajeros">
                         </div>
                         <div class="filtrosup__otro-persBusc">
                             <button>Buscar</button>

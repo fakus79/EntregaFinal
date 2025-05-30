@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="descripcion" content="Web para reserva de alojamientos en San Carlos de Bariloche, página de contacto con la empresa">
+    <meta name="description" content="Web para reserva de alojamientos en San Carlos de Bariloche, página de contacto con la empresa">
     <meta name="keywords" content="contacto Aparts Management, formulario de contacto Bariloche, atención al cliente alojamiento, consultas hospedaje Bariloche, comunicar con la empresa, soporte reservas Bariloche, ayuda alquiler temporario, contacto directo alojamiento, mensaje a Aparts Management, servicio al cliente Bariloche">
     <title>Aparts Management</title>
     <!-- estilos css-->
@@ -21,7 +21,7 @@
             <!-- header con logo y fondo de edificios-->
             <header class="logo">
                     <div class="headSkyline">
-                        <img src="./assets/logo.png" class="overlayLogo" >                        
+                        <img src="./assets/logo.png" alt="companyLogo" class="overlayLogo" >                        
                     </div>
             </header>
            
@@ -61,12 +61,12 @@
                 <div class="txt_label1">Nombre Completo:</div>
                 <div class="txt_label2">Email:</div>
                 <div class="txt_label3">Teléfono de Contacto:</div>
-                <div class="txt_pol"><input type="radio"> Sí acepto la política de privacidad</div>
+                <div class="txt_pol"><input type="radio" aria-label="acepto politica"> Sí acepto la política de privacidad</div>
 
-                <div class="inp_name"><input type="text" name="nombre" id="nombre"></div>
-                <div class="inp_email"><input type="text" name="email" id="email"></div>
-                <div class="imp_tel"><input type="text" name="telefono" id="telefono"></div>
-                <div class="area_msg"><textarea name="msgText" id="msgText>" class="msgText"></textarea></div>
+                <div class="inp_name"><input type="text" name="nombre" id="nombre" aria-label="nombre"></div>
+                <div class="inp_email"><input type="text" name="email" id="email" aria-label="email"></div>
+                <div class="imp_tel"><input type="text" name="telefono" id="telefono" aria-label="telefono"></div>
+                <div class="area_msg"><textarea name="msgText" id="msgText>" class="msgText" aria-label="mensaje empresa"></textarea></div>
                 
                 <div class="txt_label4">Mensaje:</div>
                 <div class="bot_send"><button>Enviar comentarios </button></div>
